@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Indian -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 9/26/2017 3:32:06 AM -->
+<GameInfo>
+	<GlobalParameters>
+		<Replace Name="RIVER_SOURCE_RANGE_DEFAULT" Value="16" />
+	</GlobalParameters>
+</GameInfo>

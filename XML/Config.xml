@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Config -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 2/19/2018 2:45:56 PM -->
+<GameInfo>
+	<Maps>
+		<!-- for GS -->
+		<Row Domain="Maps:Expansion2Maps" File="{EBC3EA6C-F481-466D-8D64-C3012723BDE2}Maps/Indian_XP2.lua" Name="LOC_INDIAN_OCEAN_MAP_NAME" Description="LOC_INDIAN_OCEAN_MAP_DESCRIPTION"/>
+
+		<!-- for base game -->
+		<Row File="{EBC3EA6C-F481-466D-8D64-C3012723BDE2}Maps/Indian.lua" Name="LOC_INDIAN_OCEAN_MAP_NAME" Description="LOC_INDIAN_OCEAN_MAP_DESCRIPTION"/>
+	</Maps>
+
+	<DomainValueFilters>
+		<Row Domain="Maps:Expansion2Maps" Value="{EBC3EA6C-F481-466D-8D64-C3012723BDE2}Maps/Indian.lua" Filter="difference"/>
+	</DomainValueFilters>
+
+	<!-- advanced settings -->
+	<Parameters>
+		<Row Key1="Map" Key2="{EBC3EA6C-F481-466D-8D64-C3012723BDE2}Maps/Indian.lua" ParameterId="WorldAge" Name="LOC_MAP_WORLD_AGE_NAME" Description="LOC_MAP_WORLD_AGE_DESCRIPTION" Domain="WorldAge" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="world_age" GroupId="MapOptions" Hash="0" SortIndex="230"/>
+		<Row Key1="Map" Key2="{EBC3EA6C-F481-466D-8D64-C3012723BDE2}Maps/Indian.lua" ParameterId="Rainfall" Name="LOC_MAP_RAINFALL_NAME" Description="LOC_MAP_RAINFALL_DESCRIPTION" Domain="Rainfall" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="rainfall" GroupId="MapOptions" Hash="0" SortIndex="250"/>
+		<Row Key1="Map" Key2="{EBC3EA6C-F481-466D-8D64-C3012723BDE2}Maps/Indian_XP2.lua" ParameterId="WorldAge" Name="LOC_MAP_WORLD_AGE_NAME" Description="LOC_MAP_WORLD_AGE_DESCRIPTION" Domain="WorldAge" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="world_age" GroupId="MapOptions" Hash="0" SortIndex="230"/>
+		<Row Key1="Map" Key2="{EBC3EA6C-F481-466D-8D64-C3012723BDE2}Maps/Indian_XP2.lua" ParameterId="Rainfall" Name="LOC_MAP_RAINFALL_NAME" Description="LOC_MAP_RAINFALL_DESCRIPTION" Domain="Rainfall" DefaultValue="2" ConfigurationGroup="Map" ConfigurationId="rainfall" GroupId="MapOptions" Hash="0" SortIndex="250"/>
+	</Parameters>
+</GameInfo>

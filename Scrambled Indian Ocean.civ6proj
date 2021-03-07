@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Scrambled Indian Ocean</Name>
+    <Guid>ebc3ea6c-f481-466d-8d64-c3012723bde2</Guid>
+    <ProjectGuid>e443512c-59b7-41ef-9206-d920d8535d33</ProjectGuid>
+    <ModVersion>4</ModVersion>
+    <Teaser>An internally randomised map of the Indian Ocean. Huge map size.</Teaser>
+    <Description>An internally randomised map of the Indian Ocean. Huge map size.</Description>
+    <Authors>blkbutterfly74</Authors>
+    <SpecialThanks>Firaxis</SpecialThanks>
+    <AffectsSavedGames>false</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>Scrambled Indian Ocean</AssemblyName>
+    <RootNamespace>Scrambled Indian Ocean</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="UpdateConfig"><File>XML/Config.xml</File></UpdateDatabase><UpdateText id="UpdateText"><File>XML/Indian_Text.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="UpdateIndianOceanDefaults"><File>XML/Indian.xml</File></UpdateDatabase><ImportFiles id="ImportMap"><File>Maps/Indian.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Maps" />
+    <Folder Include="XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Maps\Indian.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XML\Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XML\Indian.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XML\Indian_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

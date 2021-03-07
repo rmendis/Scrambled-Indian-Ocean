@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Indian_Text -->
+<!-- Author: blkbutterfly74 -->
+<!-- DateCreated: 2/19/2018 2:46:30 PM -->
+<GameData>
+	<FrontEndText>
+
+		<!-- Texts for Maps -->
+		<Row Tag="LOC_INDIAN_OCEAN_MAP_NAME">
+			<Text>Scrambled Indian Ocean</Text>
+		</Row>
+		<Row Tag="LOC_INDIAN_OCEAN_MAP_DESCRIPTION">
+			<Text>An internally randomized map of the Indian Ocean.</Text>
+		</Row>
+	</FrontEndText>
+</GameData>
