@@ -7,6 +7,9 @@
 		<!-- for GS -->
 		<Row Domain="Maps:Expansion2Maps" File="{EBC3EA6C-F481-466D-8D64-C3012723BDE2}Maps/Indian_XP2.lua" Name="LOC_INDIAN_OCEAN_MAP_NAME" Description="LOC_INDIAN_OCEAN_MAP_DESCRIPTION"/>
 
+		<!-- for Pirates -->
+		<Row Domain="Maps:PiratesScenarioMaps" File="{EBC3EA6C-F481-466D-8D64-C3012723BDE2}Maps/Indian.lua" Name="LOC_INDIAN_OCEAN_MAP_NAME" Description="LOC_INDIAN_OCEAN_MAP_DESCRIPTION"/>
+		
 		<!-- for base game -->
 		<Row File="{EBC3EA6C-F481-466D-8D64-C3012723BDE2}Maps/Indian.lua" Name="LOC_INDIAN_OCEAN_MAP_NAME" Description="LOC_INDIAN_OCEAN_MAP_DESCRIPTION"/>
 	</Maps>
